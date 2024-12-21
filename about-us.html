@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>信用評分平台
+  </title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8f5e9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+    background: url('head.jpg') no-repeat center center; /* 設置背景圖片 */
+    background-size: cover; /* 讓圖片覆蓋整個背景 */
+    color: white; /* 設置文字顏色為白色 */
+    padding: 40px; /* 設置內邊距 */
+    text-align: center; /* 文字居中 */
+    position: relative; /* 確保其他定位屬性正常運作 */
+}
+
+    nav ul {
+      list-style-type: none;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+      margin: 0;
+    }
+    nav ul li {
+      background-color: #4CAF50;
+      padding: 10px;
+      border-radius: 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    #about-us {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    .team-member {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .member {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>信用評分平台</h1>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="data-management.html">數據計算說明</a></li>
+        <li><a href="greenwashing.html">漂綠說明</a></li>
+        <li><a href="about-us.html">關於我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about-us">
+      <h2>關於我們</h2>
+      <div class="team-member">
+        <div class="member">
+          <img src="DSCF0215.jpg" alt="Team Member 1">
+          <h4>洪晨芮</h4>
+          <p>組長、ppt製作。</p>
+        </div>
+        <div class="member">
+          <img src="DSCF0025.jpg" alt="Team Member 2">
+          <h4>林奕慈</h4>
+          <p>專案發想、網頁製作。</p>
+        </div>
+        <div class="member">
+          <img src="DSCF0031.jpg" alt="Team Member 3">
+          <h4>黃致瑋</h4>
+          <p>網頁製作、報告。</p>
+        </div>
+        <div class="member">
+          <img src="DSCF0034.jpg" alt="Team Member 4">
+          <h4>李銘慈</h4>
+          <p>ppt製作。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Our Sustainability Platform</p>
+  </footer>
+</body>
+</html>
